@@ -1,6 +1,14 @@
-class Rectangle
+// class for this particular type of rectangles made with lines
+
+class Rectangle  
 {
   float d,a,w, h, s;
+/*
+d distance between lines
+a angle of lines : 0 horizontal, 1 vertical
+w, h width height
+s stroke size of lines
+*/
   int c;
   
   Rectangle (float width, float height, int c, float d, float a, float s)
